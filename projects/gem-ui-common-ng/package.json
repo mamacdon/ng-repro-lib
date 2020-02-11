@@ -1,0 +1,16 @@
+{
+  "name": "@dpod/gem-ui-common-ng",
+  "version": "2.0.0",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@types/intl-tel-input": "^14.0.1",
+    "intl-tel-input": "^16.0.10",
+    "ngx-trim-directive": "^1.0.4"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=7.0.0",
+    "@angular/core": ">=7.0.0"
+  },
+  "devDependencies": {
+  }
+}

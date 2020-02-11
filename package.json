@@ -1,0 +1,53 @@
+{
+  "name": "ng-repro-lib",
+  "version": "0.0.0",
+  "scripts": {
+    "build-lib": "ng build gem-ui-common-ng"
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "~9.0.0",
+    "@angular/common": "~9.0.0",
+    "@angular/compiler": "~9.0.0",
+    "@angular/core": "~9.0.0",
+    "@angular/forms": "~9.0.0",
+    "@angular/platform-browser": "~9.0.0",
+    "@angular/platform-browser-dynamic": "~9.0.0",
+    "@angular/router": "~9.0.0",
+    "@types/intl-tel-input": "^14.0.1",
+    "@types/jquery": "^3.3.30",
+    "core-js": "^3.1.4",
+    "country-region-data": "^1.4.0",
+    "intl-tel-input": "^16.0.0",
+    "ngx-trim-directive": "^1.0.4",
+    "rxjs": "~6.5.4",
+    "tslib": "^1.10.0",
+    "zone.js": "~0.10.2"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.900.1",
+    "@angular-devkit/build-ng-packagr": "~0.900.1",
+    "@angular/cli": "~9.0.1",
+    "@angular/compiler-cli": "~9.0.0",
+    "@angular/language-service": "~9.0.0",
+    "@types/jasmine": "~3.3.16",
+    "@types/jasminewd2": "~2.0.3",
+    "@types/node": "^12.11.1",
+    "codelyzer": "^5.2.1",
+    "jasmine-core": "~3.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.2.0",
+    "karma-chrome-launcher": "~3.0.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "karma-sonarqube-reporter": "^1.2.4",
+    "karma-teamcity-reporter": "^1.1.0",
+    "ng-packagr": "^9.0.0",
+    "protractor": "~5.4.2",
+    "sonarqube-scanner": "^2.5.0",
+    "ts-node": "~8.3.0",
+    "tslint": "~5.18.0",
+    "typescript": "^3.7.5"
+  }
+}

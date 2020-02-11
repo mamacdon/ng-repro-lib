@@ -1,0 +1,13 @@
+{
+  "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
+  "dest": "../../dist/gem-ui-common-ng",
+  "lib": {
+    "cssUrl": "inline",
+    "entryFile": "src/public_api.ts"
+  },
+  "whitelistedNonPeerDependencies": [
+    "@types/intl-tel-input",
+    "intl-tel-input",
+    "ngx-trim-directive"
+  ]
+}
